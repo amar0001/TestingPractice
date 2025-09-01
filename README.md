@@ -70,26 +70,34 @@ Use this as a reference or learning tool to solidify your Android testing skills
 2.Open the project in Android Studio
 3.Let Gradle sync the project
 4.Run tests using the IDE or Gradle command line
-##Testing Approach
-##Unit Testing (JUnit)
+
+---
+
+### Testing Approach
+
+## Unit Testing (JUnit)
+
 
 Write tests to verify business logic in isolation
 
 Use JUnit assertions like assertEquals, assertTrue, assertThrows, etc.
 
-##Mocking (Mockito)
+## Mocking (Mockito)
+
 
 Simulate dependencies and control behavior — e.g., mocking data sources or service responses
 
 Use MockitoAnnotations.openMocks(this) and @Mock, @InjectMocks annotations
 
-##UI Testing (Espresso)
+## UI Testing (Espresso)
 
 Automate user interactions to validate UI workflows
 
 Examples: click buttons, check view visibility/text, navigate between screens
 
-##How to Run Tests
+---
+
+## How to Run Tests
 
 Run all unit tests:
 ./gradlew testDebugUnitTest
@@ -97,13 +105,17 @@ Run all instrumented UI tests (on connected device/emulator):
 ./gradlew connectedDebugAndroidTest
 Or run tests directly from Android Studio’s Run gutter icons in the test / androidTest directories.
 
-##Contributing
+---
+
+### Contributing
 
 Pull requests are welcome! Please ensure:
 Test coverage is meaningful and demonstrates new learning techniques
 Code is well-organized, readable, and build error-free before submitting
 
-##License
+---
+
+### License
 
 This project is licensed under the Apache 2.0 License.
 
