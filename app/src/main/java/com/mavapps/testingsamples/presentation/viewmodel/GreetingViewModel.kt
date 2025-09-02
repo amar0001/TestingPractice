@@ -1,4 +1,4 @@
-package com.mavapps.testingsamples
+package com.mavapps.testingsamples.presentation.viewmodel
 
 import androidx.lifecycle.ViewModel
 

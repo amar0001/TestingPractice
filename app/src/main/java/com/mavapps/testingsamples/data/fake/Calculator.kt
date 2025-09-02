@@ -1,4 +1,4 @@
-package com.mavapps.testingsamples
+package com.mavapps.testingsamples.data.fake
 
 class Calculator {
     fun add(a: Int, b: Int): Int = a + b

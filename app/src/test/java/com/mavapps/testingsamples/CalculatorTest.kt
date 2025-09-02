@@ -1,5 +1,6 @@
 package com.mavapps.testingsamples
 
+import com.mavapps.testingsamples.data.fake.Calculator
 import org.junit.Test
 import org.junit.Assert.*
 import org.junit.Before

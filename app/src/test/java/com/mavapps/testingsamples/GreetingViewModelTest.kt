@@ -2,6 +2,7 @@ package com.mavapps.testingsamples
 
 
 
+import com.mavapps.testingsamples.presentation.viewmodel.GreetingViewModel
 import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test
